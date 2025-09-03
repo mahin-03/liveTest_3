@@ -9,7 +9,7 @@ class RecipeItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: const Icon(Icons.restaurant_menu),
+      leading: const Icon(Icons.fastfood),
       title: Text(
         recipe.title,
         style: const TextStyle(fontWeight: FontWeight.bold),
